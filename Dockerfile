@@ -28,5 +28,5 @@ RUN git clone https://github.com/nightscout/cgm-remote-monitor.git . && \
     git checkout tags/14.0.6 && \
     npm install
 
-EXPOSE 1337
+EXPOSE 1338
 CMD ["node", "server.js"]
