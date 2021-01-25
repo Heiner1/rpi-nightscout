@@ -4,6 +4,10 @@ nightscout:
     TZ: Europe/Berlin
     MONGO_CONNECTION: mongodb://mongo:27017/nightscout
     API_SECRET: mypassword123
+    DISPLAY_UNITS: mg/dl
+    ENABLE: "errorcodes cors delta direction timeago devicestatus ar2 profile careportal boluscalc food rawbg iob cob bwp cage sage iage treatmentnotify basal pump openaps"
+    SHOW_PLUGINS: "careportal cors delta direction timeago profile careportal boluscalc food iob cob bwp treatmentnotify basal pump openaps"
+    TIME_FORMAT: 24
     BG_HIGH: 220
     BG_LOW: 60
     BG_TARGET_TOP: 180
