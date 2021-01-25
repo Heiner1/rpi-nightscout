@@ -15,7 +15,7 @@ nightscout:
     AUTH_DEFAULT_ROLES: readable devicestatus-upload
     ENABLE: alexa rawbg
   ports:
-    - "1337:1337"
+    - "1338:1338"
   links:
     - mongo
   volumes:
